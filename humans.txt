@@ -1,0 +1,9 @@
+/* DEVELOPER */
+    Magdalena Salvén
+    Linneaus University, Kalmar, Sweden
+
+/* SITE */
+    Last updated:
+    Standards: HTML5, CSS3
+    Developed with Jekyll, based on the Minima theme. 
+    Hosted on Github pages.
