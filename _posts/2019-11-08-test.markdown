@@ -2,7 +2,7 @@
 layout: post
 title:  "Test"
 date:   2019-11-08 16:50:34 +0100
-categories: jekyll update
+categories: blogpost
 ---
 Test av sida
 1. Hej

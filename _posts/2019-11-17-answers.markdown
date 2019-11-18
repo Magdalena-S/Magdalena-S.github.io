@@ -1,0 +1,43 @@
+---
+layout: post
+title:  "Answers"
+date:   2019-11-17 16:47:34 +0100
+categories: exam 1
+---
+# What do you think of pre-compiling your CSS?
+* Compare to regular CSS
+
+For me, it feels like using pre-compiling CSS makes it easier to get an overlook of the CSS and easier to get an uniform style. For example, if you look at the possibility to create variables and set values that relates to eachother, changing your whole color-theme feels easy by using variables, and by only having to change your preffered color at one place.
+
+* Which techniques did you use?
+
+Basically, I started from the scss minima theme and changed some of the variables regarding the colors, different heights and font-sizes. I added a border and set the color with a variable and removed some of the elements in the footer. I made changes in the _layout.scss, minima.scss and _base.scss. 
+
+* Pros and cons?
+
+One advantage I feel with pre-compiling CSS is that it is less code to maintain and I like that you can nest your code. And as I mentioned earlier, I like that it is easy to change multiple variables at once. 
+
+One con is that pre-compiling CSS is harder to debug, due to the structure of the files and that the line-numbers doesn't match. 
+
+# What do you think of static site generators?
+* What type of projects are they suitable for?
+
+SSG are useful when you want to make changes in HTML for multiple web pages sharing the same HTML. With SSG, the changes you make generates to all of the web pages with the same attribute without you having to step in to each and every one of them. Also, because there are no database, the loading time on pages are faster, and it’s safer due to being nothing but HTML-files that can´t be hacked. 
+
+# What is robots.txt and how have you configure it for your site?
+
+Robots.txt is a simple text-file that gives instructions to search robots on how to index your website. You can block certain pages of your site to be indexed, or you can allow or disallow all.  You can also grant access to specific search robots. For example, you can allow Google to index your site, but disallow Google to index your photos and to show them in in search results. Note though, that robots.txt is not intended to prevent web pages from displaying on search engines at all, but more to tell what pages to show.
+    
+In my page, for now, I decided to not allow access at all. 
+
+# What is humans.txt and how have you configure it for your site?
+
+Humans.txt is an initiative for knowing the people behind a website. Often, the owners of a website don’t like authors signing it, and could claim that doing so makes the website less efficient. A humans.txt, located in the site root, is not intrusive with the code.
+
+# How did you implements comments to blog posts
+
+I used disqus. I followed the installation-guide on disqus website. I changed the “disqus-comments.html” to the universal code from disqus, added “comments: true” on “post.html” and added my disqus shortname plus the url to my page on “ _config.yml”.
+
+# What is Open Graph and how do you make use of it?
+
+Open graph allows you to identify which elements of your page you want to show when your page is shared, by integrating a Open Graph meta tag into your page’s content. In my case, I used the Jekyll SEO-tag plugin. I followed the installation guide included in the SEO-tag, adding code to the gemfile and config.yml.
