@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Another blog-post"
+date:   2019-11-18 10:35:34 +0100
+categories: blogpost
+---
+### Ännu ett inlägg. 
+
+Med lite mer text. Med ett  
+linebreak.
+Och utan ett
+linebreak. 
+
+        Och en box. 
