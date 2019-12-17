@@ -28,6 +28,13 @@ github_username:  Magdalena-S
 disqus: 
   shortname: http-localhost-4000-flfriotum7
 
+defaults:
+  - 
+    scope:
+      path: ""
+    values:
+      image: /assets/images/avatarog.png
+
 # Build settings
 theme: minima
 plugins:
